@@ -1,0 +1,53 @@
+.post-card-container {
+  background-color: #f5e6d3;
+  padding: 50px 50px;
+}
+
+.post-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container-pc {
+  display: flex;
+  justify-content: center;
+}
+
+.post-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+}
+
+.text-container-pc {
+  padding: 20px;
+  text-align: left;
+}
+
+.quote {
+  font-size: 1.2rem;
+  color: #5c2b29;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.quote-mark {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #5c2b29;
+}
+
+.underline {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  margin: 10px 0;
+}
+
+.sync-button {
+  background-color: #f1a02f;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}

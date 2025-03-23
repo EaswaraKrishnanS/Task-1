@@ -1,0 +1,150 @@
+.content-container {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff4e8;
+}
+
+.row {
+  display: flex;
+}
+.left-column,
+.right-column {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.badge-mc {
+  background-color: #ffb300;
+  color: black;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.meta-mc {
+  color: #888888;
+  font-size: 14px;
+}
+
+.author-mc {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.author-mc::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url("/src/Images/User Logo.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.image-container-mc {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.image-container-mc img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.left-column {
+  padding: 20px;
+}
+
+/* Right Column Styles */
+.right-column {
+  background: #fdf6ec;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 100%;
+}
+
+.latest-post-container {
+  width: 60%;
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card1 {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.card2 {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.card3 {
+  background-color: #fff;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding-left: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pc-image {
+  padding-left: 9px;
+  padding-top: 9px;
+  width: 90%;
+  height: 150px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.pc-title {
+  margin-left: 9px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.meta1 {
+  color: #888888;
+  font-size: 14px;
+}
+
+.author1 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.author1::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url("/src/Images/User Logo.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  display: inline-block;
+}

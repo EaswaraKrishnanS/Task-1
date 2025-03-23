@@ -1,0 +1,26 @@
+.footer {
+    background-color: #ffb300;
+    padding: 10px 0;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-icon {
+    font-size: 20px;
+    color: black;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .footer-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer-text {
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+  }
+  

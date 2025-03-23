@@ -1,0 +1,45 @@
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #fdf6ec, #f5e6d3);
+  height: 60px;
+}
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tile {
+  background-color: #a57c52;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.custom-menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.line {
+  background-color: black;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.line.small {
+  width: 12px;
+}
+.line.big {
+  width: 22px;
+}
+.line.medium {
+  width: 18px;
+}

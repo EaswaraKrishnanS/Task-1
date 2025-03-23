@@ -1,0 +1,27 @@
+.poster-container {
+  background-color: #f9f1e8;
+  padding: 40px;
+  text-align: center;
+}
+
+.poster-title {
+  font-family: "Cursive", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #542c1d;
+  margin-bottom: 5px;
+}
+
+.smiley {
+  font-size: 32px;
+}
+
+.underline {
+  width: 100px;
+  height: 4px;
+  background-color: #f4a261;
+  margin: 0 auto 20px;
+}
+img {
+  width: 65%;
+}
