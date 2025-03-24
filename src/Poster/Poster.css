@@ -25,3 +25,43 @@
 img {
   width: 65%;
 }
+@media (max-width: 1024px) {
+  .poster-container {
+    padding: 30px;
+  }
+
+  .poster-title {
+    font-size: 24px;
+  }
+
+  .smiley {
+    font-size: 28px;
+  }
+
+  img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .poster-container {
+    padding: 20px;
+  }
+
+  .poster-title {
+    font-size: 20px;
+  }
+
+  .smiley {
+    font-size: 24px;
+  }
+
+  .underline {
+    width: 80px;
+    height: 3px;
+  }
+
+  img {
+    width: 90%;
+  }
+}

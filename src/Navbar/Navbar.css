@@ -1,3 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-brand img {
+  height: 40px; 
+}
+
+.hamburger {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+
 .custom-navbar {
   display: flex;
   justify-content: space-between;

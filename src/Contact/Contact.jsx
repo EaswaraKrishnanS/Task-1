@@ -5,7 +5,6 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact-container">
-      {/* Newsletter Section */}
       <div className="newsletter-section">
         <div className="newsletter-content">
           <div className="newsletter-icon">📩</div>
@@ -24,15 +23,13 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Contact Section */}
-      <Container fluid className="contact-section">
+      <Container fluid className="contact-section p-0">
         <h3 className="h3c">
           <span className="highlight-text">Connect</span> to SyNC
         </h3>
 
-        <Row className="align-items-center justify-content-center">
-          {/* Map Section */}
-          <Col md={6} className="map-container">
+        <Row className="g-0 d-flex flex-nowrap">
+          <Col xs={12} md={4} className="map-container">
             <iframe
               src="https://maps.google.com/maps?q=Jayanagar%20Bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed"
               width="100%"
@@ -43,18 +40,17 @@ const Contact = () => {
             ></iframe>
           </Col>
 
-          {/* Contact Form */}
-          <Col md={6} className="form-container">
+          <Col xs={12} md={8} className="form-container">
             <Form>
-              <Row>
-                <Col md={6}>
+              <Row className="row-container">
+                <Col md={6} xs={12} className="d-flex">
                   <Form.Control
                     type="text"
                     placeholder="Enter Your Name"
                     className="contact-input"
                   />
                 </Col>
-                <Col md={6}>
+                <Col md={6} xs={12} className="d-flex">
                   <Form.Control
                     type="email"
                     placeholder="Enter your e-mail address"
@@ -73,9 +69,7 @@ const Contact = () => {
                 placeholder="Message"
                 className="contact-input"
               />
-              <Button className="send-message-button">
-                Send your Message
-              </Button>
+              <Button className="send-message-button">Send your Message</Button>
             </Form>
           </Col>
         </Row>

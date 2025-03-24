@@ -1,115 +1,141 @@
-/* Overall Contact Page Styling */
 .contact-container {
-    font-family: "Poppins", sans-serif;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  max-width: 100%;
 }
 
-/* Newsletter Section */
 .newsletter-section {
-    background-color: #a67448;
-    padding: 50px 20px;
-    text-align: center;
-    color: white;
+  background-color: #a67448;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
 }
 
 .newsletter-content h2 {
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .sync-text {
-    font-weight: bold;
-    color: white;
+  font-weight: bold;
+  color: white;
 }
 
 .newsletter-highlight {
-    font-weight: bold;
-    text-decoration: underline;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .newsletter-form {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
 
 .newsletter-input {
-    padding: 10px;
-    width: 250px;
-    border: none;
-    border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
 }
 
 .send-button {
-    background-color: #ffb300;
-    border: none;
-    padding: 10px 15px;
-    margin-left: 5px;
-    border-radius: 5px;
-    font-weight: bold;
+  background-color: #ffb300;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
-/* Contact Section */
 .contact-section {
-    background-color: #fdf6ec;
-    padding: 40px 20px; /* Reduced padding */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section .row {
+  padding-bottom: 25px;
+  width: 100% !important;
+}
+.row-container {
+  border-spacing: 0;
+}
+.highlight-text {
+  background-color: #ffb300;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-/* Form Container */
 .form-container {
-    background-color: #f5e6d7;
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 500px; /* Ensures form doesn't stretch too much */
-    margin: auto; /* Centers form properly */
+  background-color: #f5e6d7;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: none;
 }
 
-/* Map Container */
 .map-container {
-    width: 100%;
-    max-width: 500px; /* Matches form width */
-    margin-bottom: 0; /* Removes unnecessary space */
+  width: 100%;
+  max-width: 500px;
 }
-
-/* Heading */
 .h3c {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-/* Input Fields */
 .contact-input {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #c4b6a6;
-    border-radius: 5px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #c4b6a6;
+  border-radius: 5px;
 }
 
-/* Send Message Button */
 .send-message-button {
-    background-color: #ffb300;
-    border: none;
-    padding: 10px 15px;
-    font-weight: bold;
+  background-color: #ffb300;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact-section .map-container,
+  .contact-section .form-container {
     width: 100%;
-    margin-top: 10px;
+    max-width: 100%;
+  }
+
+  .contact-section .map-container {
+    margin-bottom: 20px;
+  }
+
+  .contact-section .form-container {
+    padding: 15px;
+  }
 }
 
-/* Fixes extra bottom gap */
-.contact-container {
-    margin-bottom: 0;
-}
+@media (max-width: 1024px) {
+  .newsletter-section {
+    padding: 40px 15px;
+  }
 
-.form-container form {
-    margin-bottom: 0;
+  .map-container {
+    height: 250px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .contact-input {
+    padding: 8px;
+  }
+
+  .send-message-button {
+    padding: 10px;
+  }
 }
